@@ -728,7 +728,7 @@ void eDVBCIInterfaces::recheckPMTHandlers()
 									case interface_use_dvr:
 									{
 										std::stringstream source;
-										source << "DVR" << channel->getDvrId();
+//										source << "DVR" << channel->getDvrId();
 										ci_it->setSource(source.str());
 										break;
 									}

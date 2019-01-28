@@ -24,6 +24,8 @@ addons:
     - libavahi-client-dev
     - libjpeg-turbo8-dev
     - libgif-dev
+    - libnl-3-200
+    - libdvbcsa1
 
 matrix:
   include:
@@ -52,6 +54,8 @@ matrix:
             - libavahi-client-dev
             - libjpeg-turbo8-dev
             - libgif-dev
+            - libnl-3-200
+            - libdvbcsa1
       env:
         - MATRIX_EVAL="CC=gcc-6 && CXX=g++-6"
 
@@ -80,6 +84,8 @@ matrix:
             - libavahi-client-dev
             - libjpeg-turbo8-dev
             - libgif-dev
+            - libnl-3-200
+            - libdvbcsa1
       env:
         - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
 
@@ -118,4 +124,3 @@ script:
 - make
 - python -m compileall .
 - echo done!
-
