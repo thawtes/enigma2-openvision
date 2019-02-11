@@ -386,7 +386,7 @@ if test "$BOXTYPE" == "bwidowx" -o "$BOXTYPE" == "bwidowx2"; then
 	AC_DEFINE(KEY_LAST_TO_KEY_PVR, 1,[define when rc sends a KEY_LAST event for its KEY_PVR key])
 fi
 
-if test "$BOXTYPE" == "cc1" -o "$BOXTYPE" == "sf8008" -o "$BOXTYPE" == "ustym4kpro" -o "$BOXTYPE" == "gbmv200"; then
+if test "$BOXTYPE" == "cc1" -o "$BOXTYPE" == "sf8008" -o "$BOXTYPE" == "ustym4kpro" -o "$BOXTYPE" == "gbtrio4k"; then
 	AC_DEFINE(HAVE_HISILICON, 1,[define add HISILICON chip])
 	AC_DEFINE(CONFIG_HISILICON_FB, 1,[define add HISILICON framebuffer blit])
 	AC_DEFINE(FORCE_ALPHABLENDING_ACCELERATION, 1,[define when the framebuffer acceleration has alphablending support, but detection slow down all])
@@ -577,6 +577,10 @@ if test "$BOXTYPE" == "wetekplay" -o "$BOXTYPE" == "wetekplay2" -o "$BOXTYPE" ==
 	AC_DEFINE(KEY_F2_TO_KEY_EPG, 1,[define when rc sends a KEY_F2 event for its KEY_EPG])
 	AC_DEFINE(KEY_ENTER_TO_KEY_OK, 1,[define when rc sends a KEY_ENTER event for its KEY_OK])
 	AC_DEFINE(WETEKRC, 1, [WetekPlay Remote-use BACKSPACE to toggle extended functions on numeric buttons])
+fi
+
+if test "$BOXTYPE" == "alien5" -o "$BOXTYPE" == "k1plus" -o "$BOXTYPE" == "k1pro" -o "$BOXTYPE" == "k2pro" -o "$BOXTYPE" == "k2prov2" -o "$BOXTYPE" == "k3pro" -o "$BOXTYPE" == "kvim2"; then
+	AC_DEFINE(HAVE_ALIEN5, 1,[enable Alien5 specific hacks])
 fi
 
 if test "$BOXTYPE" == "spycat" -o "$BOXTYPE" == "spycatmini" -o "$BOXTYPE" == "spycatminiplus" -o "$BOXTYPE" == "osmini" -o "$BOXTYPE" == "osminiplus" -o "$BOXTYPE" == "osmega" -o "$BOXTYPE" == "spycat4kmini" -o "$BOXTYPE" == "spycat4k" -o "$BOXTYPE" == "spycat4kcombo"; then

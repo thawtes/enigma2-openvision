@@ -118,7 +118,16 @@ RESULT eDVBDemux::setSourceFrontend(int fenum)
 	int n = DMX_SOURCE_FRONT0 + fenum;
 	int res = ::ioctl(fd, DMX_SET_SOURCE, &n);
 	if (res)
-		eDebug("[eDVBDemux] DMX_SET_SOURCE Frontend%d failed: %m", fenum);
+	{
+ 		eDebug("[eDVBDemux] DMX_SET_SOURCE Frontend%d failed: %m", fenum);
+#if HAVE_AMLOGIC
+		/** FIXME: begin dirty hack  */
+		eDebug("[eDVBDemux] Ignoring due to limitation to one frontend for each adapter and missing ioctl ...");
+		source = fenum;
+		res = 0;
+		/** FIXME: end dirty hack  */
+#endif
+	}
 	else
 		source = fenum;
 	::close(fd);
