@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-20 02:43+0330\n"
+"POT-Creation-Date: 2019-02-22 19:05+0330\n"
 "PO-Revision-Date: 2019-02-18 17:28+0100\n"
 "Last-Translator: Željko <zeljko2@hi.ht.hr>\n"
 "Language-Team: Željko\n"
@@ -1315,6 +1315,26 @@ msgstr "BT 2020 NCL"
 msgid "BT 709"
 msgstr "BT 709"
 
+#, fuzzy
+msgid "BT2020 CL"
+msgstr "BT 2020 CL"
+
+#, fuzzy
+msgid "BT2020 NCL"
+msgstr "BT 2020 NCL"
+
+msgid "BT470 BG"
+msgstr ""
+
+msgid "BT601 XvYCC"
+msgstr ""
+
+msgid "BT709"
+msgstr ""
+
+msgid "BT709 XvYCC"
+msgstr ""
+
 msgid "Back"
 msgstr "Iza"
 
@@ -1884,6 +1904,21 @@ msgstr "Način konfiguracije: %s"
 msgid "Configuration..."
 msgstr "konfiguracija..."
 
+msgid "Configure DVB-ATSC"
+msgstr ""
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "Konfiguriranje"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "Konfiguriranje"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "Konfiguriranje"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Konfigurirajte dodatnu latenciju kako biste poboljšali vanjsku sinkronizaciju titla."
 
@@ -1895,6 +1930,18 @@ msgstr "Postavka za prikaz u info traci nakon aktivacije u sekundama."
 
 msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 msgstr "Omogućuje prikaz EPG podataka o prošlim događajima. Zgodno, kada želite znati nešto o transferu, koji je pred kraj ili samo završen (u minutama)."
+
+msgid "Configure front LED color during recording (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during recording in standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color in normal mode (this needs an enigma2 restart)."
+msgstr ""
 
 msgid "Configure how many channels are shown in the selection list."
 msgstr "Konfigurirajte koliko kanala želite prikazati na popisu za odabir kanala."
@@ -2950,6 +2997,10 @@ msgstr "Preuzimanje imagea"
 msgid "Downloading plugin information. Please wait..."
 msgstr "Preuzimanje informacija o dodacima. Molim pričekajte..."
 
+#, fuzzy
+msgid "Downmix"
+msgstr "DTS miješanje"
+
 msgid "Drop unconfigured satellites"
 msgstr "Ispustite nekonfigurirane satelite"
 
@@ -3516,6 +3567,9 @@ msgstr ""
 "FBC - automatski\n"
 "neaktivan"
 
+msgid "FCC 1953"
+msgstr ""
+
 msgid "FEC"
 msgstr "FEC"
 
@@ -3735,12 +3789,25 @@ msgstr "Petak"
 msgid "From :"
 msgstr "Оd :"
 
-msgid "Front LED on"
+msgid "Front LED color during recording"
+msgstr ""
+
+msgid "Front LED color during recording in standby"
+msgstr ""
+
+#, fuzzy
+msgid "Front LED color during standby"
+msgstr "Uključite LED za napajanje tijekom pripravnog stanja."
+
+msgid "Front LED color in normal mode"
 msgstr ""
 
 #, python-format
 msgid "Frontprocessor version: %s"
 msgstr "Verzija frontprocesora: %s"
+
+msgid "Full Range RGB"
+msgstr ""
 
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, even if the content aspect ratio does not match the screen ratio)
 msgid "Full screen"
@@ -4109,6 +4176,14 @@ msgstr "HotKey postavke za postavljanje"
 msgid "Hotkey zap"
 msgstr "HotKey prebacivanje"
 
+#, fuzzy
+msgid "Hotswitchable"
+msgstr "nestabilan"
+
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "Promjenjive vrste tunera:"
+
 msgid "How many minutes do you want add to the recording?"
 msgstr "Koliko minuta želite dodati snimci?"
 
@@ -4413,6 +4488,10 @@ msgid "Invalid directory selected: %s"
 msgstr "Odabran je nevažeći direktorij: %s"
 
 msgid "Invalid location"
+msgstr "Nevažeća lokacija"
+
+#, fuzzy
+msgid "Invalid reason"
 msgstr "Nevažeća lokacija"
 
 msgid "Invalid transponder data"
@@ -5678,6 +5757,9 @@ msgstr "Uređivač usluga za roditeljski nadzor"
 
 msgid "Parental control setup"
 msgstr "Postavljanje roditeljske kontrole"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr "Lozinka"
@@ -7023,6 +7105,18 @@ msgstr "Odaberite 'A' ili 'B' ako to zahtijeva antenski sustav, u suprotnom odab
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Odaberite 'FBC SCR' ako se ovaj tuner spaja na SCR (Unicable/JESS) uređaj. Za sve ostale postavke odaberite 'FBC automatic'."
 
+msgid "Select 'Yes' when you want to configure this tuner for DVB-ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
+
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Odaberite 'opseg' ako koristite 'univerzalni' LNB, inače konzultirajte LNB specifikacije."
 
@@ -7902,6 +7996,12 @@ msgstr "PIN pametne kartice"
 msgid "Smooth"
 msgstr "Glatko"
 
+msgid "Smpte 170M"
+msgstr ""
+
+msgid "Smpte 240M"
+msgstr ""
+
 msgid "Social/Political/Economics"
 msgstr "Socijalne/političke/ekonomske"
 
@@ -8392,7 +8492,8 @@ msgstr "Prebacite se na prethodnu pod-uslugu"
 msgid "Switch to radio mode"
 msgstr "Prebacite se na radio način"
 
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "Promjenjive vrste tunera:"
 
 msgid "Switzerland"
@@ -8700,8 +8801,8 @@ msgstr ""
 "Za normalne korisnike to nije relevantno.\n"
 "Molim vas ne paničite kada vidite da se vrijednosti prikazuju a mislite da su sumnjive!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Ovo je multi tuner. Dostupne opcije ovise o hardveru. Povezivanje kabelske i zemaljske TV nije moguće istovremeno. Ako želite koristiti kabelsku tv + satelit ili zemaljsku tv + satelit, najprije konfigurirajte kabelsku tv/zemaljsku tv a zatim spremite. Ponovno otvorite i namjestite kao satelit."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Ovo je redoslijed slanja DiSEqC naredbi u antenski sustav. Poredak mora točno odgovarati poretku postavljanja uređaja koji su postavljeni duž signalnog kabela (počevši od kraja prijemnika)."
@@ -9170,9 +9271,6 @@ msgstr "Turkmenistan"
 
 msgid "Turks and Caicos Islands"
 msgstr "Turski i Caicos otoci"
-
-msgid "Turn on the front LED (this needs enigma2 restart)."
-msgstr ""
 
 #, fuzzy
 msgid "Turn on the power LED during deep standby."
@@ -10547,8 +10645,18 @@ msgstr "crno & bijelo"
 msgid "blacklist"
 msgstr "crna lista"
 
+msgid "blinking blue/green"
+msgstr ""
+
+msgid "blinking red"
+msgstr ""
+
 msgid "blue"
 msgstr "plava"
+
+#, fuzzy
+msgid "blue/green"
+msgstr "zelena"
 
 msgid "bottom"
 msgstr "odozdo"
@@ -10606,6 +10714,16 @@ msgstr "povezano"
 
 msgid "controlled by HDMI"
 msgstr "upravljano po HDMI"
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+#, fuzzy
+msgid "convert to multi-channel PCM"
+msgstr "Višekanalni PCM"
 
 msgid "cooking"
 msgstr "kuhanje"
@@ -10721,9 +10839,6 @@ msgstr "zabava (6-14 godina starosti)"
 msgid "epg cache backup"
 msgstr "backup kopije epg-a"
 
-msgid "equal to"
-msgstr "jednak kao"
-
 msgid "equestrian"
 msgstr "jahanje"
 
@@ -10764,6 +10879,10 @@ msgid "experimental film/video"
 msgstr "eksperimentalni film/video"
 
 msgid "extra wide"
+msgstr "izuzetno širok"
+
+#, fuzzy
+msgid "extrawide"
 msgstr "izuzetno širok"
 
 msgid "failed"
@@ -10936,9 +11055,6 @@ msgstr "zaključano"
 
 msgid "long"
 msgstr "dugo"
-
-msgid "loopthrough to"
-msgstr "povratna petlja"
 
 msgid "magazines/reports/documentary"
 msgstr "časopisi/izvješća/dokumentarni"
@@ -11243,9 +11359,6 @@ msgstr "status pretraživanja"
 msgid "science fiction/fantasy/horror"
 msgstr "znanstvena fantastika/fantazija/horor"
 
-msgid "second cable of motorized LNB"
-msgstr "drugi kabel motoriziranog LNB-a"
-
 msgid "seconds"
 msgstr "sekunde"
 
@@ -11475,6 +11588,13 @@ msgstr "nestabilan"
 
 msgid "until standby/restart"
 msgstr "do stanja čekanja/ponovnog pokretanja"
+
+#, fuzzy
+msgid "use best / controlled by HDMI"
+msgstr "upravljano po HDMI"
+
+msgid "use_hdmi_cacenter"
+msgstr ""
 
 msgid "user defined"
 msgstr "korisnički definirano"

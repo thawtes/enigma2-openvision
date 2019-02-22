@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 12:56+0330\n"
+"POT-Creation-Date: 2019-02-22 19:05+0330\n"
 "PO-Revision-Date: 2019-01-25 20:38+0100\n"
 "Last-Translator: Pr2\n"
 "Language-Team: french\n"
@@ -1306,6 +1306,26 @@ msgstr "BT 2020 NCL"
 msgid "BT 709"
 msgstr "BT 709"
 
+#, fuzzy
+msgid "BT2020 CL"
+msgstr "BT 2020 CL"
+
+#, fuzzy
+msgid "BT2020 NCL"
+msgstr "BT 2020 NCL"
+
+msgid "BT470 BG"
+msgstr ""
+
+msgid "BT601 XvYCC"
+msgstr ""
+
+msgid "BT709"
+msgstr ""
+
+msgid "BT709 XvYCC"
+msgstr ""
+
 msgid "Back"
 msgstr "Retour"
 
@@ -1875,6 +1895,21 @@ msgstr "Mode de configuration: %s"
 msgid "Configuration..."
 msgstr "Configuration..."
 
+msgid "Configure DVB-ATSC"
+msgstr ""
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "Configuration"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "Configuration"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "Configuration"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Configure un retard supplémentaire pour améliorer la synchronisation des sous-titres externes."
 
@@ -1886,6 +1921,18 @@ msgstr "Configure la durée d’affichage de la barre d’informations après ac
 
 msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 msgstr "Configure combien de temps un événement terminé doit rester visible dans l'EPG. Utile lorsque vous avez besoin d'informations sur un événement qui vient de se terminer, ou a été retardé."
+
+msgid "Configure front LED color during recording (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during recording in standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color in normal mode (this needs an enigma2 restart)."
+msgstr ""
 
 msgid "Configure how many channels are shown in the selection list."
 msgstr "Configure le nombre de chaînes affichées dans la liste de sélection."
@@ -2934,6 +2981,10 @@ msgstr "Téléchargement de l'image en cours"
 msgid "Downloading plugin information. Please wait..."
 msgstr "Téléchargement des informations sur les extensions en cours. Patientez SVP..."
 
+#, fuzzy
+msgid "Downmix"
+msgstr "Downmix DTS"
+
 msgid "Drop unconfigured satellites"
 msgstr "Oublier les satellites non configurés"
 
@@ -3501,6 +3552,9 @@ msgstr ""
 "FBC automatique\n"
 "désactivé"
 
+msgid "FCC 1953"
+msgstr ""
+
 msgid "FEC"
 msgstr "FEC"
 
@@ -3720,12 +3774,25 @@ msgstr "Vendredi"
 msgid "From :"
 msgstr "De:"
 
-msgid "Front LED on"
+msgid "Front LED color during recording"
+msgstr ""
+
+msgid "Front LED color during recording in standby"
+msgstr ""
+
+#, fuzzy
+msgid "Front LED color during standby"
+msgstr "Allumer la LED power pendant le standby."
+
+msgid "Front LED color in normal mode"
 msgstr ""
 
 #, python-format
 msgid "Frontprocessor version: %s"
 msgstr "Version du frontprocessor: %s"
+
+msgid "Full Range RGB"
+msgstr ""
 
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, even if the content aspect ratio does not match the screen ratio)
 msgid "Full screen"
@@ -4095,6 +4162,14 @@ msgstr "Configurer Hotkey"
 msgid "Hotkey zap"
 msgstr "Hotkey zap"
 
+#, fuzzy
+msgid "Hotswitchable"
+msgstr "non testable"
+
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "Types de tuner permutables:"
+
 msgid "How many minutes do you want add to the recording?"
 msgstr "Combien de minutes voulez-vous ajouter à l'enregistrement?"
 
@@ -4397,6 +4472,10 @@ msgid "Invalid directory selected: %s"
 msgstr "Répertoire sélectionné non valide: %s"
 
 msgid "Invalid location"
+msgstr "Emplacement non valide"
+
+#, fuzzy
+msgid "Invalid reason"
 msgstr "Emplacement non valide"
 
 msgid "Invalid transponder data"
@@ -5660,6 +5739,9 @@ msgstr "Éditeur des services avec contrôle parental"
 
 msgid "Parental control setup"
 msgstr "Paramètres du contrôle parental"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr "Mot de passe"
@@ -7003,6 +7085,18 @@ msgstr "Sélectionnez ‘A’ ou ‘B’ si votre système aérien nécessite ce
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Sélectionnez ‘FBC SCR’ si le tuner va être connecté à un périphérique SCR (Unicable/JESS). Pour toutes les autres configurations choisir ‘FBC automatique’."
 
+msgid "Select 'Yes' when you want to configure this tuner for DVB-ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
+
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Sélectionnez ‘bande’ si vous utilisez un LNB ‘universel’, sinon consultez la fiche technique de votre LNB."
 
@@ -7879,6 +7973,12 @@ msgstr "Code PIN de la carte à puce"
 msgid "Smooth"
 msgstr "Adouci"
 
+msgid "Smpte 170M"
+msgstr ""
+
+msgid "Smpte 240M"
+msgstr ""
+
 msgid "Social/Political/Economics"
 msgstr "Société/Politique/Economie"
 
@@ -8368,7 +8468,8 @@ msgstr "Basculer vers sous-service précédent"
 msgid "Switch to radio mode"
 msgstr "Basculer en mode radio"
 
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "Types de tuner permutables:"
 
 msgid "Switzerland"
@@ -8685,8 +8786,8 @@ msgstr ""
 "Pour les utilisateurs finaux ceci n'est pas important.\n"
 "SVP, ne paniquez pas si vous voyez des valeurs que vous pensez étranges!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Ceci est un tuner de type multiple. Les options disponibles dépendent du matériel. Câble et terrestre ne peuvent pas être configuré en même temps. Si vous voulez utilisez câble + satelltie ou terreste + satellite, configurez d’abord câble/terreste et puis sauvegardez le. Ré-ouvrez et configurez à nouveau en tant que satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Ceci est l’ordre dans laquelle les commandes DiSEqC sont envoyées vers un système aérien. L’ordre doit correspondre exactement avec l’ordre des périphériques physiques le long du câble (en démarrant du récepteur vers la fin)."
@@ -9155,9 +9256,6 @@ msgstr "Turkmenistan"
 
 msgid "Turks and Caicos Islands"
 msgstr "Îles Turques et Caïques"
-
-msgid "Turn on the front LED (this needs enigma2 restart)."
-msgstr ""
 
 msgid "Turn on the power LED during deep standby."
 msgstr "Allumez la LED « power » pendant la veille profonde."
@@ -10535,8 +10633,18 @@ msgstr "Noir & Blanc"
 msgid "blacklist"
 msgstr "Liste noire (blacklist)"
 
+msgid "blinking blue/green"
+msgstr ""
+
+msgid "blinking red"
+msgstr ""
+
 msgid "blue"
 msgstr "Bleu"
+
+#, fuzzy
+msgid "blue/green"
+msgstr "Vert"
 
 msgid "bottom"
 msgstr "Bas"
@@ -10594,6 +10702,16 @@ msgstr "Connecté"
 
 msgid "controlled by HDMI"
 msgstr "Contrôlé par HDMI"
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+#, fuzzy
+msgid "convert to multi-channel PCM"
+msgstr "PCM multi-canaux"
 
 msgid "cooking"
 msgstr "Cuisine"
@@ -10709,9 +10827,6 @@ msgstr "Divertissement (6-14 ans)"
 msgid "epg cache backup"
 msgstr "sauvegarde du cache de l'epg"
 
-msgid "equal to"
-msgstr "Égale au"
-
 msgid "equestrian"
 msgstr "Équestre"
 
@@ -10752,6 +10867,10 @@ msgid "experimental film/video"
 msgstr "Film expérimental/Vidéo"
 
 msgid "extra wide"
+msgstr "extra large"
+
+#, fuzzy
+msgid "extrawide"
 msgstr "extra large"
 
 msgid "failed"
@@ -10924,9 +11043,6 @@ msgstr "Verrouillé"
 
 msgid "long"
 msgstr "long"
-
-msgid "loopthrough to"
-msgstr "Rebouclé par"
 
 msgid "magazines/reports/documentary"
 msgstr "Magazines/Rapports/Documentaires"
@@ -11231,9 +11347,6 @@ msgstr "Etat de la recherche"
 msgid "science fiction/fantasy/horror"
 msgstr "Science-fiction/Fantastique/Horreur"
 
-msgid "second cable of motorized LNB"
-msgstr "Deuxième câble du LNB motorisé"
-
 msgid "seconds"
 msgstr "Secondes"
 
@@ -11463,6 +11576,13 @@ msgstr "non testable"
 
 msgid "until standby/restart"
 msgstr "Jusqu'à veille/redémarrage"
+
+#, fuzzy
+msgid "use best / controlled by HDMI"
+msgstr "Contrôlé par HDMI"
+
+msgid "use_hdmi_cacenter"
+msgstr ""
 
 msgid "user defined"
 msgstr "Défini par l'utilisateur"

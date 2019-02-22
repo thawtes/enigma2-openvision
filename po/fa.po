@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 12:56+0330\n"
+"POT-Creation-Date: 2019-02-22 19:05+0330\n"
 "PO-Revision-Date: 2018-02-14 16:51+0330\n"
 "Last-Translator: Persian Prince <persianprince@pe4k.com>\n"
 "Language-Team: Persian Professionals <persianpros@yahoo.com>\n"
@@ -1311,6 +1311,24 @@ msgstr ""
 msgid "BT 709"
 msgstr ""
 
+msgid "BT2020 CL"
+msgstr ""
+
+msgid "BT2020 NCL"
+msgstr ""
+
+msgid "BT470 BG"
+msgstr ""
+
+msgid "BT601 XvYCC"
+msgstr ""
+
+msgid "BT709"
+msgstr ""
+
+msgid "BT709 XvYCC"
+msgstr ""
+
 msgid "Back"
 msgstr "بازگشت"
 
@@ -1908,6 +1926,21 @@ msgstr "حالت پیکربندی: "
 msgid "Configuration..."
 msgstr "پیکربندی شبکه"
 
+msgid "Configure DVB-ATSC"
+msgstr ""
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "پیکربندی"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "پیکربندی"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "پیکربندی"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr ""
 
@@ -1918,6 +1951,18 @@ msgid "Configure for how long the infobar will remain visible after activation."
 msgstr ""
 
 msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
+msgstr ""
+
+msgid "Configure front LED color during recording (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during recording in standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color in normal mode (this needs an enigma2 restart)."
 msgstr ""
 
 msgid "Configure how many channels are shown in the selection list."
@@ -3003,6 +3048,9 @@ msgstr "در حال دانلود"
 msgid "Downloading plugin information. Please wait..."
 msgstr "در حال دانلود کردن اطلاعات پلاگین ها - لطفا صبر کنید"
 
+msgid "Downmix"
+msgstr ""
+
 msgid "Drop unconfigured satellites"
 msgstr ""
 
@@ -3573,6 +3621,9 @@ msgid ""
 "inactive"
 msgstr ""
 
+msgid "FCC 1953"
+msgstr ""
+
 msgid "FEC"
 msgstr "FEC"
 
@@ -3793,11 +3844,23 @@ msgstr "جمعه"
 msgid "From :"
 msgstr "از :"
 
-msgid "Front LED on"
+msgid "Front LED color during recording"
+msgstr ""
+
+msgid "Front LED color during recording in standby"
+msgstr ""
+
+msgid "Front LED color during standby"
+msgstr ""
+
+msgid "Front LED color in normal mode"
 msgstr ""
 
 #, python-format
 msgid "Frontprocessor version: %s"
+msgstr ""
+
+msgid "Full Range RGB"
 msgstr ""
 
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, even if the content aspect ratio does not match the screen ratio)
@@ -4182,6 +4245,14 @@ msgstr ""
 msgid "Hotkey zap"
 msgstr ""
 
+msgid "Hotswitchable"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "انواع تیونر های قابل تعویض:"
+
 #, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "چند دقیقه میخواهید ضبط کنید؟"
@@ -4500,6 +4571,10 @@ msgstr "پوشه انتخاب شده نامعتبر است: %s"
 
 #, fuzzy
 msgid "Invalid location"
+msgstr "محل نامعتبر"
+
+#, fuzzy
+msgid "Invalid reason"
 msgstr "محل نامعتبر"
 
 msgid "Invalid transponder data"
@@ -5812,6 +5887,9 @@ msgstr "ویرایشگر کانال های کنترل والدین"
 
 msgid "Parental control setup"
 msgstr "تنظیمات کنترل والدین"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr ""
@@ -7206,6 +7284,18 @@ msgstr ""
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr ""
 
+msgid "Select 'Yes' when you want to configure this tuner for DVB-ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
+
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr ""
 
@@ -8132,6 +8222,12 @@ msgstr "رمز کارت هوشمند"
 msgid "Smooth"
 msgstr "صاف"
 
+msgid "Smpte 170M"
+msgstr ""
+
+msgid "Smpte 240M"
+msgstr ""
+
 msgid "Social/Political/Economics"
 msgstr "اجتماعی/سیاسی/اقتصادی"
 
@@ -8654,7 +8750,8 @@ msgid "Switch to radio mode"
 msgstr ""
 
 #
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "انواع تیونر های قابل تعویض:"
 
 msgid "Switzerland"
@@ -8947,7 +9044,7 @@ msgid ""
 "Don't panic please when you see values being displayed that you think look suspicious!"
 msgstr ""
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
 msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
@@ -9396,9 +9493,6 @@ msgid "Turkmenistan"
 msgstr ""
 
 msgid "Turks and Caicos Islands"
-msgstr ""
-
-msgid "Turn on the front LED (this needs enigma2 restart)."
 msgstr ""
 
 msgid "Turn on the power LED during deep standby."
@@ -10715,8 +10809,18 @@ msgstr "سیاه و سفید"
 msgid "blacklist"
 msgstr "لیست سیاه"
 
+msgid "blinking blue/green"
+msgstr ""
+
+msgid "blinking red"
+msgstr ""
+
 msgid "blue"
 msgstr "آبی"
+
+#, fuzzy
+msgid "blue/green"
+msgstr "سبز"
 
 msgid "bottom"
 msgstr ""
@@ -10773,6 +10877,15 @@ msgid "connected"
 msgstr ""
 
 msgid "controlled by HDMI"
+msgstr ""
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+msgid "convert to multi-channel PCM"
 msgstr ""
 
 msgid "cooking"
@@ -10889,9 +11002,6 @@ msgstr ""
 msgid "epg cache backup"
 msgstr ""
 
-msgid "equal to"
-msgstr ""
-
 msgid "equestrian"
 msgstr ""
 
@@ -10933,6 +11043,10 @@ msgstr ""
 
 msgid "extra wide"
 msgstr ""
+
+#, fuzzy
+msgid "extrawide"
+msgstr "عریض"
 
 msgid "failed"
 msgstr ""
@@ -11107,9 +11221,6 @@ msgid "locked"
 msgstr "قفل شده"
 
 msgid "long"
-msgstr ""
-
-msgid "loopthrough to"
 msgstr ""
 
 msgid "magazines/reports/documentary"
@@ -11415,9 +11526,6 @@ msgstr ""
 msgid "science fiction/fantasy/horror"
 msgstr ""
 
-msgid "second cable of motorized LNB"
-msgstr ""
-
 msgid "seconds"
 msgstr "ثانیه"
 
@@ -11646,6 +11754,12 @@ msgid "untestable"
 msgstr ""
 
 msgid "until standby/restart"
+msgstr ""
+
+msgid "use best / controlled by HDMI"
+msgstr ""
+
+msgid "use_hdmi_cacenter"
 msgstr ""
 
 msgid "user defined"

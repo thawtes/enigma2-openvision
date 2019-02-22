@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLI Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 12:56+0330\n"
+"POT-Creation-Date: 2019-02-22 19:05+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: MCelliotG <mcelliotg@gmail.com>\n"
@@ -1301,6 +1301,26 @@ msgstr "BT 2020 NCL"
 msgid "BT 709"
 msgstr "BT 709"
 
+#, fuzzy
+msgid "BT2020 CL"
+msgstr "BT 2020 CL"
+
+#, fuzzy
+msgid "BT2020 NCL"
+msgstr "BT 2020 NCL"
+
+msgid "BT470 BG"
+msgstr ""
+
+msgid "BT601 XvYCC"
+msgstr ""
+
+msgid "BT709"
+msgstr ""
+
+msgid "BT709 XvYCC"
+msgstr ""
+
 msgid "Back"
 msgstr "Πίσω"
 
@@ -1870,6 +1890,21 @@ msgstr "Τύπος ρύθμισης: %s"
 msgid "Configuration..."
 msgstr "Παραμετροποίηση..."
 
+msgid "Configure DVB-ATSC"
+msgstr ""
+
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "Παραμετροποίηση"
+
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "Παραμετροποίηση"
+
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "Παραμετροποίηση"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Ρύθμιση πρόσθετης καθυστέρησης για βελτίωση του συγχρονισμού των εξωτερικών υποτίτλων."
 
@@ -1881,6 +1916,18 @@ msgstr "Ρυθμίστε για πόσο χρόνο η μπάρα πληροφο
 
 msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 msgstr "Ρυθμίστε για πόσα λεπτά τα προγράμματα που έχουν ολοκληρωθεί θα παραμένουν ορατά στο EPG. Χρήσιμο όταν χρειάζεστε πληροφορίες για ένα πρόγραμμα που τελείωσε ή καθυστέρησε."
+
+msgid "Configure front LED color during recording (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during recording in standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color in normal mode (this needs an enigma2 restart)."
+msgstr ""
 
 msgid "Configure how many channels are shown in the selection list."
 msgstr "Ρυθμίστε πόσα κανάλια θα εμφανίζονται στη λίστα επιλογής."
@@ -2929,6 +2976,10 @@ msgstr "Λήψη Image"
 msgid "Downloading plugin information. Please wait..."
 msgstr "Λήψη πληροφοριών προσθέτων. Παρακαλώ περιμένετε ..."
 
+#, fuzzy
+msgid "Downmix"
+msgstr "Μίξη DTS"
+
 msgid "Drop unconfigured satellites"
 msgstr "Αγνόηση μη ρυθμισμένων δορυφόρων"
 
@@ -3496,6 +3547,9 @@ msgstr ""
 "FBC αυτόματο\n"
 "ανενεργό"
 
+msgid "FCC 1953"
+msgstr ""
+
 msgid "FEC"
 msgstr "FEC"
 
@@ -3714,12 +3768,25 @@ msgstr "Παρασκευή"
 msgid "From :"
 msgstr "Από :"
 
-msgid "Front LED on"
+msgid "Front LED color during recording"
+msgstr ""
+
+msgid "Front LED color during recording in standby"
+msgstr ""
+
+#, fuzzy
+msgid "Front LED color during standby"
+msgstr "Ενεργοποίηση LED κατά την αναμονή."
+
+msgid "Front LED color in normal mode"
 msgstr ""
 
 #, python-format
 msgid "Frontprocessor version: %s"
 msgstr "Έκδοση μετωπιαίου επεξεργαστή: %s"
+
+msgid "Full Range RGB"
+msgstr ""
 
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, even if the content aspect ratio does not match the screen ratio)
 msgid "Full screen"
@@ -4089,6 +4156,14 @@ msgstr "Ρυθμίσεις Hotkey"
 msgid "Hotkey zap"
 msgstr "Ζάπινγκ Hotkey"
 
+#, fuzzy
+msgid "Hotswitchable"
+msgstr "μη δυνατή δοκιμή"
+
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "Εναλλάξιμοι τύποι tuner: "
+
 msgid "How many minutes do you want add to the recording?"
 msgstr "Πόσα λεπτά θέλετε να προστεθούν στην εγγραφή;"
 
@@ -4394,6 +4469,10 @@ msgid "Invalid directory selected: %s"
 msgstr "Επιλέχθηκε μη έγκυρος φάκελος: %s"
 
 msgid "Invalid location"
+msgstr "Μη έγκυρη τοποθεσία"
+
+#, fuzzy
+msgid "Invalid reason"
 msgstr "Μη έγκυρη τοποθεσία"
 
 msgid "Invalid transponder data"
@@ -5657,6 +5736,9 @@ msgstr "Επεξεργασία υπηρεσιών γονικού έλεγχου"
 
 msgid "Parental control setup"
 msgstr "Παραμετροποίηση γονικού ελέγχου"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr "Κωδικός"
@@ -7000,6 +7082,18 @@ msgstr "Επιλέξτε 'A' ή 'B' αν το απαιτεί το κεραιοσ
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr "Επιλέξτε 'FBC SCR' αν αυτό το tuner θα χρησιμοποιήσει μία συσκευή SCR (Unicable/JESS). Για όλες τις άλλες ρυθμίσεις επιλέξτε 'FBC αυτόματο'."
 
+msgid "Select 'Yes' when you want to configure this tuner for DVB-ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
+
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Επιλέξτε 'μπάντα' αν χρησιμοποιείτε ένα 'universal' LNB, αλλιώς ανατρέξτε στον πίνακα χαρακτηριστικών του LNB σας."
 
@@ -7876,6 +7970,12 @@ msgstr "PIN έξυπνης κάρτας"
 msgid "Smooth"
 msgstr "Ομαλό"
 
+msgid "Smpte 170M"
+msgstr ""
+
+msgid "Smpte 240M"
+msgstr ""
+
 msgid "Social/Political/Economics"
 msgstr "Κοινωνία/Πολιτική/Οικονομία"
 
@@ -8365,7 +8465,8 @@ msgstr "Μετάβαση στην προηγούμενη υπό-υπηρεσία
 msgid "Switch to radio mode"
 msgstr "Αλλαγή σε λειτουργία ραδιοφώνου"
 
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "Εναλλάξιμοι τύποι tuner: "
 
 msgid "Switzerland"
@@ -8675,8 +8776,8 @@ msgstr ""
 "Δεν αφορά κοινούς χρήστες.\n"
 "Παρακαλούμε μη πανικοβάλλεστε όταν βλέπετε να απεικονίζονται τιμές που σας φαίνονται ύποπτες!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
-msgstr "Αυτό είναι ένα tuner πολλαπλών τύπων. Οι διαθέσιμες επιλογές εξαρτώνται από το υλικό. Ο καλωδιακός και ο επίγειος τύπος δεν μπορούν να ρυθμιστούν ταυτόχρονα. Αν θέλετε να χρησιμοποιήσετε το δέκτη σας ως καλωδιακό + δορυφορικό ή επίγειο + δορυφορικό, ρυθμίστε τον καλωδιακό/επίγειο τύπο πρώτα και αποθηκεύστε. Ανοίξτε ξανά και ρυθμίστε ως δορυφορικό."
+msgid "This is a multitype tuner. Available options depend on the hardware."
+msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Αυτή είναι η σειρά με την οποία αποστέλλονται οι εντολές DiSEqC στο κεραιοσύστημα. Η σειρά πρέπει να αντιστοιχεί ακριβώς στη σειρά με την οποία έχουν παραταχθεί οι φυσικές συσκευές στο καλώδιο σήματος (ξεκινώντας από τον τελευταίο δέκτη)."
@@ -9145,9 +9246,6 @@ msgstr "Τουρκμενιστάν"
 
 msgid "Turks and Caicos Islands"
 msgstr "Νήσοι Τερκς και Κέικος"
-
-msgid "Turn on the front LED (this needs enigma2 restart)."
-msgstr ""
 
 msgid "Turn on the power LED during deep standby."
 msgstr "Ενεργοποίηση LED κατά τη βαθιά αναμονή."
@@ -10518,8 +10616,18 @@ msgstr "άσπρο & μαύρο"
 msgid "blacklist"
 msgstr "μαύρη λίστα"
 
+msgid "blinking blue/green"
+msgstr ""
+
+msgid "blinking red"
+msgstr ""
+
 msgid "blue"
 msgstr "μπλε"
+
+#, fuzzy
+msgid "blue/green"
+msgstr "πράσινο"
 
 msgid "bottom"
 msgstr "κάτω"
@@ -10577,6 +10685,16 @@ msgstr "συνδεδεμένο"
 
 msgid "controlled by HDMI"
 msgstr "ελέγχεται από το HDMI"
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+#, fuzzy
+msgid "convert to multi-channel PCM"
+msgstr "Πολυκάναλο PCM"
 
 msgid "cooking"
 msgstr "μαγειρική"
@@ -10692,9 +10810,6 @@ msgstr "ψυχαγωγία (6-14 ετών)"
 msgid "epg cache backup"
 msgstr "αντίγραφο ασφαλείας του cache του epg"
 
-msgid "equal to"
-msgstr "ίσο με"
-
 msgid "equestrian"
 msgstr "ιπποδρομίες"
 
@@ -10735,6 +10850,10 @@ msgid "experimental film/video"
 msgstr "πειραματικές ταινίες/βίντεο"
 
 msgid "extra wide"
+msgstr "πολύ πλατιά"
+
+#, fuzzy
+msgid "extrawide"
 msgstr "πολύ πλατιά"
 
 msgid "failed"
@@ -10907,9 +11026,6 @@ msgstr "κλειδωμένο"
 
 msgid "long"
 msgstr "παρατεταμένο"
-
-msgid "loopthrough to"
-msgstr "loopthrough σε"
 
 msgid "magazines/reports/documentary"
 msgstr "περιοδικά/εκθέσεις/ντοκιμαντέρ"
@@ -11214,9 +11330,6 @@ msgstr "κατάσταση ανίχνευσης"
 msgid "science fiction/fantasy/horror"
 msgstr "επιστημονικής φαντασίας/φαντασίας/τρόμου"
 
-msgid "second cable of motorized LNB"
-msgstr "δεύτερο καλώδιο σε κινούμενο LNB"
-
 msgid "seconds"
 msgstr "δευτερόλεπτα"
 
@@ -11446,6 +11559,13 @@ msgstr "μη δυνατή δοκιμή"
 
 msgid "until standby/restart"
 msgstr "μέχρι την αναμονή/επανεκκίνηση"
+
+#, fuzzy
+msgid "use best / controlled by HDMI"
+msgstr "ελέγχεται από το HDMI"
+
+msgid "use_hdmi_cacenter"
+msgstr ""
 
 msgid "user defined"
 msgstr "ορισμένο από το χρήστη"

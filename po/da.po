@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-14 12:56+0330\n"
+"POT-Creation-Date: 2019-02-22 19:05+0330\n"
 "PO-Revision-Date: 2017-01-18 16:38+0100\n"
 "Last-Translator: lupine <a_ecklon@hotmail.com>\n"
 "Language-Team: \n"
@@ -1454,6 +1454,24 @@ msgstr ""
 msgid "BT 709"
 msgstr ""
 
+msgid "BT2020 CL"
+msgstr ""
+
+msgid "BT2020 NCL"
+msgstr ""
+
+msgid "BT470 BG"
+msgstr ""
+
+msgid "BT601 XvYCC"
+msgstr ""
+
+msgid "BT709"
+msgstr ""
+
+msgid "BT709 XvYCC"
+msgstr ""
+
 #
 msgid "Back"
 msgstr "Tilbage"
@@ -2115,6 +2133,24 @@ msgstr "Konfigurations type %s"
 msgid "Configuration..."
 msgstr "Konfiguration..."
 
+msgid "Configure DVB-ATSC"
+msgstr ""
+
+#
+#, fuzzy
+msgid "Configure DVB-C"
+msgstr "Konfigurerer"
+
+#
+#, fuzzy
+msgid "Configure DVB-S"
+msgstr "Konfigurerer"
+
+#
+#, fuzzy
+msgid "Configure DVB-T"
+msgstr "Konfigurerer"
+
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Konfigurer en yderligere forsinkelse for at forbedre ekstern undertekst synkronisation "
 
@@ -2126,6 +2162,18 @@ msgstr "Konfigurer hvor længe infobaren vil være vist efter aktivering."
 
 msgid "Configure for how many minutes finished events should remain visible in the EPG. Useful when you need information about an event which has just finished, or has been delayed."
 msgstr "Konfigurer hvor mange minutter at begivenheder skal forblive synlige i EPG. Brugbart når du har brug for informationer om en begivenhed der netop er afsluttet, eller er forsinket."
+
+msgid "Configure front LED color during recording (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during recording in standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color during standby (this needs an enigma2 restart)."
+msgstr ""
+
+msgid "Configure front LED color in normal mode (this needs an enigma2 restart)."
+msgstr ""
 
 msgid "Configure how many channels are shown in the selection list."
 msgstr "Konfigurer, hvor mange kanaler der er vist i selektionslisten."
@@ -3323,6 +3371,10 @@ msgid "Downloading plugin information. Please wait..."
 msgstr "Henter plugin informationer. Vent venligst..."
 
 #, fuzzy
+msgid "Downmix"
+msgstr "DTS downmix"
+
+#, fuzzy
 msgid "Drop unconfigured satellites"
 msgstr "Forbundne sattelliter"
 
@@ -3951,6 +4003,9 @@ msgid ""
 "inactive"
 msgstr ""
 
+msgid "FCC 1953"
+msgstr ""
+
 #
 msgid "FEC"
 msgstr "FEC"
@@ -4205,12 +4260,25 @@ msgstr "Fredag"
 msgid "From :"
 msgstr "Fra"
 
-msgid "Front LED on"
+msgid "Front LED color during recording"
+msgstr ""
+
+msgid "Front LED color during recording in standby"
+msgstr ""
+
+#, fuzzy
+msgid "Front LED color during standby"
+msgstr "Tænd for strøm LED under standby."
+
+msgid "Front LED color in normal mode"
 msgstr ""
 
 #, python-format
 msgid "Frontprocessor version: %s"
 msgstr "Frontprocessor version: %s"
+
+msgid "Full Range RGB"
+msgstr ""
 
 #. TRANSLATORS: (aspect ratio policy: display as fullscreen, even if the content aspect ratio does not match the screen ratio)
 #, fuzzy
@@ -4617,6 +4685,15 @@ msgid "Hotkey zap"
 msgstr "Hotkey zap"
 
 #, fuzzy
+msgid "Hotswitchable"
+msgstr "ikke muligt at teste"
+
+#
+#, fuzzy
+msgid "Hotswitchable tuner"
+msgstr "Udskiftelige tuner typer"
+
+#, fuzzy
 msgid "How many minutes do you want add to the recording?"
 msgstr "Hvor mange minutter vil du tilføje til optagelsen?"
 
@@ -4966,6 +5043,11 @@ msgstr "Ugyldig mappe valgt: %s"
 
 #
 msgid "Invalid location"
+msgstr "Ugyldig placering"
+
+#
+#, fuzzy
+msgid "Invalid reason"
 msgstr "Ugyldig placering"
 
 msgid "Invalid transponder data"
@@ -6434,6 +6516,9 @@ msgstr "Forældrekontrol kanalredigering"
 #
 msgid "Parental control setup"
 msgstr "Forældrekontrol opsætning"
+
+msgid "Passthrough"
+msgstr ""
 
 msgid "Password"
 msgstr ""
@@ -8024,6 +8109,18 @@ msgstr ""
 msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) device. For all other setups select 'FBC automatic'."
 msgstr ""
 
+msgid "Select 'Yes' when you want to configure this tuner for DVB-ATSC"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
+msgstr ""
+
+msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
+msgstr ""
+
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr ""
 
@@ -9026,6 +9123,12 @@ msgstr "Smartcard PIN"
 msgid "Smooth"
 msgstr ""
 
+msgid "Smpte 170M"
+msgstr ""
+
+msgid "Smpte 240M"
+msgstr ""
+
 msgid "Social/Political/Economics"
 msgstr "Social/Politik/Økonomi"
 
@@ -9590,7 +9693,8 @@ msgid "Switch to radio mode"
 msgstr "Skift til radio mode"
 
 #
-msgid "Switchable tuner types:"
+#, fuzzy
+msgid "Switchable tuner types"
 msgstr "Udskiftelige tuner typer"
 
 msgid "Switzerland"
@@ -9927,7 +10031,7 @@ msgstr ""
 "For en normal bruger er dette ikke relevant.\n"
 "Gå ikke i panik når du ser værdier blive vist, som du synes ser mistænkelig ud!"
 
-msgid "This is a multitype tuner. Available options depend on the hardware. Cable and terrestrial cannot be configured at the same time. If you want to use as cable + satellite or terrestrial + satellite, configure cable/terrestrial first and then save. Re-open and configure again as satellite."
+msgid "This is a multitype tuner. Available options depend on the hardware."
 msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
@@ -10481,9 +10585,6 @@ msgid "Turkmenistan"
 msgstr "Tyrkisk"
 
 msgid "Turks and Caicos Islands"
-msgstr ""
-
-msgid "Turn on the front LED (this needs enigma2 restart)."
 msgstr ""
 
 #, fuzzy
@@ -12018,9 +12119,20 @@ msgstr "sort & hvid"
 msgid "blacklist"
 msgstr "sortlist"
 
+msgid "blinking blue/green"
+msgstr ""
+
+msgid "blinking red"
+msgstr ""
+
 #
 msgid "blue"
 msgstr "blå"
+
+#
+#, fuzzy
+msgid "blue/green"
+msgstr "grøn"
 
 msgid "bottom"
 msgstr "bund"
@@ -12085,6 +12197,16 @@ msgstr "tilsluttet"
 
 msgid "controlled by HDMI"
 msgstr ""
+
+msgid "convert to AC3"
+msgstr ""
+
+msgid "convert to DTS"
+msgstr ""
+
+#, fuzzy
+msgid "convert to multi-channel PCM"
+msgstr "Multichannel PCM"
 
 msgid "cooking"
 msgstr "madlavning"
@@ -12223,10 +12345,6 @@ msgstr "entertainment (6-14 year old)"
 msgid "epg cache backup"
 msgstr "epg cache backup"
 
-#
-msgid "equal to"
-msgstr "svarende til"
-
 msgid "equestrian"
 msgstr "dressur"
 
@@ -12270,6 +12388,9 @@ msgid "experimental film/video"
 msgstr "eksperimentel film/video "
 
 msgid "extra wide"
+msgstr ""
+
+msgid "extrawide"
 msgstr ""
 
 msgid "failed"
@@ -12475,10 +12596,6 @@ msgstr "låst "
 
 msgid "long"
 msgstr ""
-
-#
-msgid "loopthrough to"
-msgstr "gennemløb til"
 
 msgid "magazines/reports/documentary"
 msgstr "magasiner/reporter/dokumentar"
@@ -12836,10 +12953,6 @@ msgid "science fiction/fantasy/horror"
 msgstr "science fiction/fantasy/gys"
 
 #
-msgid "second cable of motorized LNB"
-msgstr "sekundært kabel fra motor LNB"
-
-#
 msgid "seconds"
 msgstr "sekunder"
 
@@ -13100,6 +13213,12 @@ msgstr "ikke muligt at teste"
 #
 msgid "until standby/restart"
 msgstr "indtil standby/genstart"
+
+msgid "use best / controlled by HDMI"
+msgstr ""
+
+msgid "use_hdmi_cacenter"
+msgstr ""
 
 #
 msgid "user defined"
