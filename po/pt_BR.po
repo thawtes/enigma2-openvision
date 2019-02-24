@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-23 13:53+0330\n"
+"POT-Creation-Date: 2019-02-24 17:01+0330\n"
 "PO-Revision-Date: 2013-10-20 19:13-0300\n"
 "Last-Translator: Diogo <pingflood@gmail.com>\n"
 "Language-Team: Traduzido por Frank Viana <franksrviana@gmail.com>\n"
@@ -495,6 +495,9 @@ msgstr ""
 msgid "10bit"
 msgstr ""
 
+msgid "12 character"
+msgstr ""
+
 msgid "12V output"
 msgstr "Saída 12V"
 
@@ -525,6 +528,9 @@ msgstr "16:9 Sempre"
 msgid "18 V"
 msgstr ""
 
+msgid "1X"
+msgstr ""
+
 msgid "2"
 msgstr ""
 
@@ -541,6 +547,9 @@ msgid "25"
 msgstr ""
 
 msgid "29.97"
+msgstr ""
+
+msgid "2X"
 msgstr ""
 
 msgid "3"
@@ -563,6 +572,9 @@ msgid "3D surround softlimiter"
 msgstr ""
 
 msgid "3D surround speaker position"
+msgstr ""
+
+msgid "3X"
 msgstr ""
 
 msgid "3d mode"
@@ -589,6 +601,9 @@ msgstr ""
 msgid "4:3 PanScan"
 msgstr ""
 
+msgid "4X"
+msgstr ""
+
 msgid "5"
 msgstr ""
 
@@ -602,6 +617,9 @@ msgid "7"
 msgstr ""
 
 msgid "8"
+msgstr ""
+
+msgid "8 character"
 msgstr ""
 
 msgid "8bit"
@@ -1001,6 +1019,9 @@ msgstr "Permitir legendas para deficientes auditivos"
 #, fuzzy
 msgid "Allow unsupported modes"
 msgstr "Não suportado"
+
+msgid "Allows you to enable/disable displaying icons on the frontpanel."
+msgstr ""
 
 msgid "Alpha"
 msgstr ""
@@ -1509,6 +1530,10 @@ msgid "Brazil"
 msgstr ""
 
 msgid "Brightness"
+msgstr "Brilho"
+
+#, fuzzy
+msgid "Brightness (Dimmed)"
 msgstr "Brilho"
 
 msgid "British Indian Ocean Territory"
@@ -2078,6 +2103,10 @@ msgstr "Configurar a largura da borda das legendas. A borda escura faz com que a
 msgid "Configure the brightness level of the front panel display during standby."
 msgstr "Configurar o brilho do visor do painel frontal durante o modo de espera."
 
+#, fuzzy
+msgid "Configure the brightness level of the front panel display for dimmed operation."
+msgstr "Configurar o brilho do visor do painel frontal."
+
 msgid "Configure the brightness level of the front panel display."
 msgstr "Configurar o brilho do visor do painel frontal."
 
@@ -2271,6 +2300,9 @@ msgstr ""
 msgid "Configure whether or not an icon should be shown when your motorized dish is moving."
 msgstr "Configurar se um ícone deve ser exibido quando sua antena motorizada está se movendo."
 
+msgid "Configure whether the 'recording' symbol (in the display skin and LCD skin) is visible for real recordings only or also for streaming and pseuso recordings (e.g. EPGrefresh)."
+msgstr ""
+
 msgid "Configure which access level to use for the configuration menu. Expert level gives access to all items."
 msgstr "Configurar o nível de acesso para utilizar o menu de configuração. Nível Expert dá acesso a todos os itens."
 
@@ -2357,6 +2389,10 @@ msgstr "Reprodução contínua"
 
 msgid "Continue playing"
 msgstr "Continuar reproduzindo"
+
+#, fuzzy
+msgid "Continues"
+msgstr "Continuar"
 
 msgid "Continues play (loop)"
 msgstr "Reprodução contínua (loop)"
@@ -2806,6 +2842,13 @@ msgstr ""
 msgid "Digital contour removal"
 msgstr "Remover contorno digital"
 
+#, fuzzy
+msgid "Dim delay"
+msgstr "Sem atraso"
+
+msgid "Dim the LCD after specified time."
+msgstr ""
+
 msgid "Direct playback of linked titles without menu"
 msgstr "Reproduzir diretamente títulos sem menu"
 
@@ -2833,6 +2876,9 @@ msgid "Disable background scanning"
 msgstr "Desativar busca em segundo plano"
 
 msgid "Disable current event but not coming events"
+msgstr ""
+
+msgid "Disable the HDD Process on VFD"
 msgstr ""
 
 msgid "Disable timer"
@@ -3252,6 +3298,9 @@ msgid "Enable parental protection"
 msgstr ""
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
+msgstr ""
+
+msgid "Enable screenshot of LCD in /tmp"
 msgstr ""
 
 msgid "Enable teletext caching"
@@ -4339,6 +4388,9 @@ msgstr ""
 msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. This is an old API version that has now been superseded."
 msgstr ""
 
+msgid "If the text is too long to be displayed on the front panel, it will be repeated (number of times):"
+msgstr ""
+
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
 msgstr ""
 
@@ -4730,6 +4782,31 @@ msgstr "Adaptador LAN"
 msgid "LAN connection"
 msgstr "Conexão LAN"
 
+#, fuzzy
+msgid "LCD scroll speed"
+msgstr "Última velocidade"
+
+#, fuzzy
+msgid "LED Deep Standby"
+msgstr "Desligar"
+
+#, fuzzy
+msgid "LED Normal"
+msgstr "Normal"
+
+#, fuzzy
+msgid "LED Standby"
+msgstr "Espera/StandBy"
+
+msgid "LED brightness during deep standby."
+msgstr ""
+
+msgid "LED brightness during normal operations."
+msgstr ""
+
+msgid "LED brightness during standby."
+msgstr ""
+
 msgid "LNB"
 msgstr ""
 
@@ -4927,6 +5004,9 @@ msgstr ""
 msgid "Loop through from"
 msgstr ""
 
+msgid "Lower Framerate save CPU Time"
+msgstr ""
+
 msgid "Lower case"
 msgstr ""
 
@@ -5086,6 +5166,12 @@ msgid "Mexico"
 msgstr ""
 
 msgid "Micronesia (Federated States of)"
+msgstr ""
+
+msgid "MiniTV"
+msgstr ""
+
+msgid "MiniTV with OSD"
 msgstr ""
 
 #, python-format
@@ -5660,6 +5746,9 @@ msgstr ""
 msgid "ONID"
 msgstr ""
 
+msgid "OSD"
+msgstr ""
+
 msgid "OSD 3D setup"
 msgstr ""
 
@@ -5795,6 +5884,12 @@ msgstr ""
 
 msgid "PIN code needed"
 msgstr "A senha é necessária"
+
+msgid "PIP"
+msgstr ""
+
+msgid "PIP with OSD"
+msgstr ""
 
 msgid "PLP ID"
 msgstr ""
@@ -6260,6 +6355,25 @@ msgid "Positioner setup log"
 msgstr ""
 
 msgid "Power LED"
+msgstr ""
+
+msgid "Power LED State in Deep-Standby"
+msgstr ""
+
+#, fuzzy
+msgid "Power LED State in Standby"
+msgstr "Desligar quando em espera"
+
+msgid "Power LED can be turned on or off here."
+msgstr ""
+
+msgid "Power LED state during deep-standby."
+msgstr ""
+
+msgid "Power LED state during standby."
+msgstr ""
+
+msgid "Power On Display"
 msgstr ""
 
 msgid "Power management. Consult your receiver's manual for more information."
@@ -7169,10 +7283,19 @@ msgstr "Buscando..."
 msgid "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr "Busca no banco de dados satélites conectados ao posicionador"
 
+msgid "Screenshot of LCD in /tmp"
+msgstr ""
+
 msgid "Scroll delay"
 msgstr ""
 
 msgid "Scroll repeats"
+msgstr ""
+
+msgid "Scrolling delay (software renderer)"
+msgstr ""
+
+msgid "Scrolling speed (software renderer)"
 msgstr ""
 
 msgid "Search east"
@@ -7643,6 +7766,9 @@ msgstr "Serviços"
 msgid "Set CI assignment for detection of available services."
 msgstr ""
 
+msgid "Set Framerate for MiniTV"
+msgstr ""
+
 msgid "Set PIN"
 msgstr ""
 
@@ -7696,11 +7822,22 @@ msgstr ""
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
 msgstr ""
 
+msgid "Set the delay time between repeated loops, this is used by software renderer in some skins."
+msgstr ""
+
 msgid "Set the password of the OpenWebif from your fallback tuner"
 msgstr ""
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr ""
+
+#, fuzzy
+msgid "Set the scrolling speed of text on the front display, this is used by software renderer in some skins."
+msgstr "Configurar o nível de contraste do painel frontal."
+
+#, fuzzy
+msgid "Set the scrolling speed of text on the front display."
+msgstr "Configurar o nível de contraste do painel frontal."
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Progresso dos eventos na lista de canais."
@@ -7773,6 +7910,10 @@ msgstr ""
 msgid "Show CI messages"
 msgstr ""
 
+#, fuzzy
+msgid "Show Display Icons"
+msgstr "Exibir 4:3 como"
+
 msgid "Show EIT now/next in infobar"
 msgstr "Exibir EIT agora/próximo na barra de informações"
 
@@ -7785,11 +7926,28 @@ msgstr "Exibir EPG"
 msgid "Show Games show"
 msgstr "Exibir Games Show"
 
+#, fuzzy
+msgid "Show HDD progress"
+msgstr "Bar. Progr. pequena"
+
+msgid "Show HDMI Output Resulution"
+msgstr ""
+
+msgid "Show HDMI-Output Res"
+msgstr ""
+
 msgid "Show InfoBar"
+msgstr ""
+
+msgid "Show MiniTV in the Front Display"
 msgstr ""
 
 msgid "Show PIP"
 msgstr ""
+
+#, fuzzy
+msgid "Show PIP in the Front Display"
+msgstr "Reprodutor de rádio"
 
 msgid "Show SNR percentage instead of dB value"
 msgstr "Exibir percentual SNR em vez do valor dB"
@@ -7934,6 +8092,10 @@ msgstr ""
 
 msgid "Show record indicator"
 msgstr ""
+
+#, fuzzy
+msgid "Show recording symbol"
+msgstr "Parar gravação"
 
 msgid "Show screensaver"
 msgstr "Exibir protetor de tela"
@@ -8960,6 +9122,9 @@ msgstr ""
 msgid "This option allows you enable the vertical scaler dejagging."
 msgstr ""
 
+msgid "This option allows you to Power Off the display."
+msgstr ""
+
 msgid "This option allows you to add the softcam setup in the extensions menu."
 msgstr ""
 
@@ -9157,6 +9322,9 @@ msgstr "Quinta-feira"
 
 msgid "Time"
 msgstr "Hora"
+
+msgid "Time for next LCD scrolling"
+msgstr ""
 
 msgid "Time scale"
 msgstr "Escala de tempo"
@@ -10421,6 +10589,12 @@ msgstr ""
 "Deseja remover\n"
 "\"%s\"?"
 
+msgid "You can Display MiniTV with or without OSD Menu"
+msgstr ""
+
+msgid "You can Display PIP with or without OSD Menu"
+msgstr ""
+
 msgid "You can cancel the installation."
 msgstr "A instalação pode ser cancelada."
 
@@ -10753,6 +10927,10 @@ msgstr ""
 msgid "and select previous channel"
 msgstr ""
 
+#, fuzzy
+msgid "any recordings"
+msgstr "Gravações"
+
 msgid "are you sure to cancel all changes"
 msgstr ""
 
@@ -11037,6 +11215,9 @@ msgstr "Falso"
 msgid "fashion"
 msgstr "Moda"
 
+msgid "fast"
+msgstr ""
+
 msgid "fileformats (BMP, PNG, JPG, GIF)"
 msgstr "Formatos (BMP, PNG, JPG, GIF)"
 
@@ -11225,6 +11406,10 @@ msgstr "Menu"
 msgid "mins"
 msgstr "mins"
 
+#, fuzzy
+msgid "minute"
+msgstr "minutos"
+
 msgid "minutes"
 msgstr "minutos"
 
@@ -11293,6 +11478,10 @@ msgstr "Nenhum slots CI encontrado"
 
 msgid "no channel list"
 msgstr ""
+
+#, fuzzy
+msgid "no delay"
+msgstr "Sem atraso"
 
 msgid "no module found"
 msgstr "Nenhum modulo detectado"
@@ -11399,6 +11588,18 @@ msgstr "Programa infantil pré-escolar"
 
 msgid "purge deleted userbouquets"
 msgstr ""
+
+#, fuzzy
+msgid "real or pseudo recordings"
+msgstr "Parar gravação"
+
+#, fuzzy
+msgid "real recordings"
+msgstr "Gravações"
+
+#, fuzzy
+msgid "real recordings or streaming"
+msgstr "Diretório das gravações agendadas"
 
 msgid "receiver software because updates are available."
 msgstr "software do receptor porque há atualizações disponíveis."
@@ -11612,6 +11813,9 @@ msgstr ""
 
 #, python-format
 msgid "slot%s - %s, without backup"
+msgstr ""
+
+msgid "slow"
 msgstr ""
 
 msgid "soap/melodram/folkloric"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-23 13:53+0330\n"
+"POT-Creation-Date: 2019-02-24 17:01+0330\n"
 "PO-Revision-Date: 2017-03-05 13:24+0100\n"
 "Last-Translator: Magnus Nilsson <mag_nilsson@hotmail.com>\n"
 "Language-Team: \n"
@@ -526,6 +526,9 @@ msgstr ""
 msgid "10bit"
 msgstr ""
 
+msgid "12 character"
+msgstr ""
+
 #
 msgid "12V output"
 msgstr "12V utgång"
@@ -563,6 +566,11 @@ msgid "18 V"
 msgstr "18 V"
 
 #
+#, fuzzy
+msgid "1X"
+msgstr "1"
+
+#
 msgid "2"
 msgstr "2"
 
@@ -580,6 +588,11 @@ msgstr "25"
 
 msgid "29.97"
 msgstr "29.97"
+
+#
+#, fuzzy
+msgid "2X"
+msgstr "2"
 
 #
 msgid "3"
@@ -604,6 +617,11 @@ msgstr ""
 
 msgid "3D surround speaker position"
 msgstr ""
+
+#
+#, fuzzy
+msgid "3X"
+msgstr "3"
 
 msgid "3d mode"
 msgstr "3d läge"
@@ -634,6 +652,11 @@ msgid "4:3 PanScan"
 msgstr "4:3 PanScan"
 
 #
+#, fuzzy
+msgid "4X"
+msgstr "4"
+
+#
 msgid "5"
 msgstr "5"
 
@@ -651,6 +674,9 @@ msgstr "7"
 #
 msgid "8"
 msgstr "8"
+
+msgid "8 character"
+msgstr ""
 
 msgid "8bit"
 msgstr ""
@@ -1111,6 +1137,9 @@ msgstr "Tillåt undertexter för hörselnedsatta"
 #, fuzzy
 msgid "Allow unsupported modes"
 msgstr "stöds ej"
+
+msgid "Allows you to enable/disable displaying icons on the frontpanel."
+msgstr ""
 
 #
 msgid "Alpha"
@@ -1685,6 +1714,11 @@ msgstr ""
 
 #
 msgid "Brightness"
+msgstr "Ljusstyrka"
+
+#
+#, fuzzy
+msgid "Brightness (Dimmed)"
 msgstr "Ljusstyrka"
 
 msgid "British Indian Ocean Territory"
@@ -2319,6 +2353,10 @@ msgstr "Konfigurera undertextens kantbred . Den mörka gränsen gör att underte
 msgid "Configure the brightness level of the front panel display during standby."
 msgstr "Konfigurera ljusstyrkan på frontpanelens display i viloläge."
 
+#, fuzzy
+msgid "Configure the brightness level of the front panel display for dimmed operation."
+msgstr "Konfigurera ljusstyrkan på frontpanelens display."
+
 msgid "Configure the brightness level of the front panel display."
 msgstr "Konfigurera ljusstyrkan på frontpanelens display."
 
@@ -2520,6 +2558,9 @@ msgstr "Konfigurera om rotorpositionen skall visas i infobalken."
 msgid "Configure whether or not an icon should be shown when your motorized dish is moving."
 msgstr "Vid aktiverad kommer en ikon att visas när motoriserad parabol är i rörelse."
 
+msgid "Configure whether the 'recording' symbol (in the display skin and LCD skin) is visible for real recordings only or also for streaming and pseuso recordings (e.g. EPGrefresh)."
+msgstr ""
+
 msgid "Configure which access level to use for the configuration menu. Expert level gives access to all items."
 msgstr "Konfigurera vilken behörighetsnivå som ska användas för konfigurationsmenyn. Expertnivå ger tillgång till alla objekt."
 
@@ -2617,6 +2658,10 @@ msgstr "Fortsätt spela"
 #
 msgid "Continue playing"
 msgstr "Fortsätt spela"
+
+#, fuzzy
+msgid "Continues"
+msgstr "Forsätt"
 
 msgid "Continues play (loop)"
 msgstr "Kontinuerlig uppspelning (loop)"
@@ -3123,6 +3168,13 @@ msgstr "Såg du alla åtta pilhuvudena?"
 msgid "Digital contour removal"
 msgstr "Digital contour borttagning"
 
+#, fuzzy
+msgid "Dim delay"
+msgstr "Ingen fördröjning"
+
+msgid "Dim the LCD after specified time."
+msgstr ""
+
 #
 msgid "Direct playback of linked titles without menu"
 msgstr "Direkt uppspelning av länkade titlar utan meny"
@@ -3156,6 +3208,9 @@ msgstr "Avaktivera skanning i bakgrunden"
 
 msgid "Disable current event but not coming events"
 msgstr "Avsluta nuvarande program men inte kommande program"
+
+msgid "Disable the HDD Process on VFD"
+msgstr ""
 
 msgid "Disable timer"
 msgstr "Avaktivera timer"
@@ -3633,6 +3688,9 @@ msgstr "Aktivera föräldrakontroll"
 
 msgid "Enable remote enigma2 receiver to be tried to tune into services that cannot be tuned into locally (e.g. tuner is occupied or service type is unavailable on the local tuner. Specify complete URL including http:// and port number (normally ...:8001), e.g. http://second_box:8001."
 msgstr "Aktivera fjärrmottagare för att försöka ställa in kanaler som inte kan ställas in lokalt (t.ex. att tuner är upptagen eller kanalen inte är tillgänglig på den lokala tunern). Ange den fullständiga webbadressen inklusive http://och portnummer (vanligtvis ...:8001), till exempel http://andra boxen:8001."
+
+msgid "Enable screenshot of LCD in /tmp"
+msgstr ""
 
 msgid "Enable teletext caching"
 msgstr "Aktivera teletext cache"
@@ -4841,6 +4899,9 @@ msgstr ""
 msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. This is an old API version that has now been superseded."
 msgstr ""
 
+msgid "If the text is too long to be displayed on the front panel, it will be repeated (number of times):"
+msgstr ""
+
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
 msgstr ""
 
@@ -5287,6 +5348,36 @@ msgid "LAN connection"
 msgstr "LAN anslutning"
 
 #
+#, fuzzy
+msgid "LCD scroll speed"
+msgstr "Föregående hastighet"
+
+#
+#, fuzzy
+msgid "LED Deep Standby"
+msgstr "Stäng av"
+
+#, fuzzy
+msgid "LED Normal"
+msgstr "normal"
+
+#
+#, fuzzy
+msgid "LED Standby"
+msgstr "Viloläge"
+
+#, fuzzy
+msgid "LED brightness during deep standby."
+msgstr "Slå på powerlampan i viloläge."
+
+msgid "LED brightness during normal operations."
+msgstr ""
+
+#, fuzzy
+msgid "LED brightness during standby."
+msgstr "Slå på powerlampan i viloläge."
+
+#
 msgid "LNB"
 msgstr "LNB"
 
@@ -5516,6 +5607,9 @@ msgstr "Longitud"
 msgid "Loop through from"
 msgstr "Loop through från"
 
+msgid "Lower Framerate save CPU Time"
+msgstr ""
+
 msgid "Lower case"
 msgstr ""
 
@@ -5697,6 +5791,12 @@ msgid "Mexico"
 msgstr ""
 
 msgid "Micronesia (Federated States of)"
+msgstr ""
+
+msgid "MiniTV"
+msgstr ""
+
+msgid "MiniTV with OSD"
 msgstr ""
 
 #, python-format
@@ -6346,6 +6446,11 @@ msgstr "OK"
 msgid "ONID"
 msgstr "ONID"
 
+#
+#, fuzzy
+msgid "OSD"
+msgstr "SNR"
+
 msgid "OSD 3D setup"
 msgstr "OSD 3D inställning"
 
@@ -6492,6 +6597,12 @@ msgstr "PGS fil"
 
 msgid "PIN code needed"
 msgstr "PIN-kod behövs"
+
+msgid "PIP"
+msgstr ""
+
+msgid "PIP with OSD"
+msgstr ""
 
 msgid "PLP ID"
 msgstr "PLP ID"
@@ -7039,6 +7150,28 @@ msgstr "Motorinstallationslogg"
 
 msgid "Power LED"
 msgstr ""
+
+msgid "Power LED State in Deep-Standby"
+msgstr ""
+
+#, fuzzy
+msgid "Power LED State in Standby"
+msgstr "Stäng av vid viloläge"
+
+msgid "Power LED can be turned on or off here."
+msgstr ""
+
+#, fuzzy
+msgid "Power LED state during deep-standby."
+msgstr "Slå på powerlampan i viloläge."
+
+#, fuzzy
+msgid "Power LED state during standby."
+msgstr "Slå på powerlampan i viloläge."
+
+#, fuzzy
+msgid "Power On Display"
+msgstr "Ta bort alla loggfiler"
 
 msgid "Power management. Consult your receiver's manual for more information."
 msgstr ""
@@ -8081,11 +8214,20 @@ msgstr "Söker..."
 msgid "Scans default lamedbs sorted by satellite with a connected dish positioner"
 msgstr "Sök grund lamedbs sorterat på satellit med en ansluten parabolmotor"
 
+msgid "Screenshot of LCD in /tmp"
+msgstr ""
+
 msgid "Scroll delay"
 msgstr "Skrollfördröjning"
 
 msgid "Scroll repeats"
 msgstr "Skrollupprepningar"
+
+msgid "Scrolling delay (software renderer)"
+msgstr ""
+
+msgid "Scrolling speed (software renderer)"
+msgstr ""
 
 #
 msgid "Search east"
@@ -8612,6 +8754,9 @@ msgstr "Kanaler"
 msgid "Set CI assignment for detection of available services."
 msgstr ""
 
+msgid "Set Framerate for MiniTV"
+msgstr ""
+
 msgid "Set PIN"
 msgstr "Ange PIN"
 
@@ -8668,11 +8813,22 @@ msgstr "Ställ in uppstartskanal"
 msgid "Set the User ID of the OpenWebif from your fallback tuner"
 msgstr ""
 
+msgid "Set the delay time between repeated loops, this is used by software renderer in some skins."
+msgstr ""
+
 msgid "Set the password of the OpenWebif from your fallback tuner"
 msgstr ""
 
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr ""
+
+#, fuzzy
+msgid "Set the scrolling speed of text on the front display, this is used by software renderer in some skins."
+msgstr "Konfigurera kontrastnivån på  frontpanelens display."
+
+#, fuzzy
+msgid "Set the scrolling speed of text on the front display."
+msgstr "Konfigurera kontrastnivån på  frontpanelens display."
 
 #
 msgid "Set the type of the progress indication in the channel selection screen."
@@ -8753,6 +8909,10 @@ msgstr "Visa ljudval"
 msgid "Show CI messages"
 msgstr "Visa CI meddelanden"
 
+#, fuzzy
+msgid "Show Display Icons"
+msgstr "Visa krypteringsikoner"
+
 msgid "Show EIT now/next in infobar"
 msgstr "Visa EIT nu / nästa i infobalken"
 
@@ -8767,11 +8927,31 @@ msgstr "Visa EPG..."
 msgid "Show Games show"
 msgstr "Visa Spel show"
 
+#
+#, fuzzy
+msgid "Show HDD progress"
+msgstr "Liten tidslinje"
+
+#, fuzzy
+msgid "Show HDMI Output Resulution"
+msgstr "Visa undertextval"
+
+msgid "Show HDMI-Output Res"
+msgstr ""
+
 msgid "Show InfoBar"
 msgstr "Visa infobalk"
 
+#, fuzzy
+msgid "Show MiniTV in the Front Display"
+msgstr "Visa picons i display"
+
 msgid "Show PIP"
 msgstr "Visa BiB"
+
+#, fuzzy
+msgid "Show PIP in the Front Display"
+msgstr "Visa picons i display"
 
 msgid "Show SNR percentage instead of dB value"
 msgstr "Visa SNR procent istället för dB värde"
@@ -8928,6 +9108,10 @@ msgstr "Visa klockikoner för inspelning"
 
 msgid "Show record indicator"
 msgstr "Visa inspelningsikon"
+
+#, fuzzy
+msgid "Show recording symbol"
+msgstr "Stoppa inspelningar :"
 
 msgid "Show screensaver"
 msgstr "Visa skärmsläckare"
@@ -10102,6 +10286,10 @@ msgid "This option allows you enable the vertical scaler dejagging."
 msgstr "Detta val tillåter dig att stänga av displayen."
 
 #, fuzzy
+msgid "This option allows you to Power Off the display."
+msgstr "Detta val tillåter dig att stänga av displayen."
+
+#, fuzzy
 msgid "This option allows you to add the softcam setup in the extensions menu."
 msgstr "Detta val tillåter dig att stänga av displayen."
 
@@ -10331,6 +10519,9 @@ msgstr "Torsdag"
 #
 msgid "Time"
 msgstr "Tid"
+
+msgid "Time for next LCD scrolling"
+msgstr ""
 
 msgid "Time scale"
 msgstr "Tidskala"
@@ -11746,6 +11937,12 @@ msgstr ""
 "vill du ta bort\n"
 "\"%s\"?"
 
+msgid "You can Display MiniTV with or without OSD Menu"
+msgstr ""
+
+msgid "You can Display PIP with or without OSD Menu"
+msgstr ""
+
 #
 msgid "You can cancel the installation."
 msgstr "Du kan avbryta installationen."
@@ -12129,6 +12326,11 @@ msgstr "och välj nästa kanal"
 msgid "and select previous channel"
 msgstr "och välj föregående kanal"
 
+#
+#, fuzzy
+msgid "any recordings"
+msgstr "Inspelningar"
+
 msgid "are you sure to cancel all changes"
 msgstr "är du säker på att avbryta alla ändringar"
 
@@ -12455,6 +12657,9 @@ msgstr "falskt"
 msgid "fashion"
 msgstr "mode"
 
+msgid "fast"
+msgstr ""
+
 #
 msgid "fileformats (BMP, PNG, JPG, GIF)"
 msgstr "filformat (BMP, PNG, JPG, GIF)"
@@ -12675,6 +12880,11 @@ msgid "mins"
 msgstr "min"
 
 #
+#, fuzzy
+msgid "minute"
+msgstr "minuter"
+
+#
 msgid "minutes"
 msgstr "minuter"
 
@@ -12753,6 +12963,10 @@ msgstr "ingen CI slot hittad"
 
 msgid "no channel list"
 msgstr "ingen kanallista"
+
+#, fuzzy
+msgid "no delay"
+msgstr "Ingen fördröjning"
 
 #
 msgid "no module found"
@@ -12875,6 +13089,20 @@ msgstr "barnprogram förskola"
 
 msgid "purge deleted userbouquets"
 msgstr "rensa borttagna favoritlistor"
+
+#, fuzzy
+msgid "real or pseudo recordings"
+msgstr "Stoppa inspelningar :"
+
+#
+#, fuzzy
+msgid "real recordings"
+msgstr "Inspelningar"
+
+#
+#, fuzzy
+msgid "real recordings or streaming"
+msgstr "Timerinspelningens plats"
 
 msgid "receiver software because updates are available."
 msgstr "mottagarens programvara för att uppdateringar finns tillgängliga."
@@ -13119,6 +13347,9 @@ msgstr ""
 
 #, python-format
 msgid "slot%s - %s, without backup"
+msgstr ""
+
+msgid "slow"
 msgstr ""
 
 msgid "soap/melodram/folkloric"
