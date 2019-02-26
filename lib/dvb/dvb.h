@@ -242,7 +242,7 @@ public:
 	bool frontendIsCompatible(int index, const char *type);
 	bool frontendIsMultistream(int index);
 	std::string getFrontendCapabilities(int index);
-	void setFrontendType(int index, const char *type);
+	void setFrontendType(int index, const char *types);
 	RESULT getAdapterDemux(ePtr<eDVBDemux> &demux, int adapter_nr, int demux_nr);
 };
 SWIG_TEMPLATE_TYPEDEF(ePtr<eDVBResourceManager>, eDVBResourceManager);
