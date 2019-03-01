@@ -4,7 +4,7 @@ import xml.etree.cElementTree
 import os
 
 profile("LOAD:enigma_skin")
-from enigma import eSize, ePoint, eRect, gFont, eWindow, eLabel, ePixmap, eWindowStyleManager, addFont, gRGB, eWindowStyleSkinned, getDesktop, getBoxType
+from enigma import eSize, ePoint, eRect, gFont, eWindow, eLabel, ePixmap, eWindowStyleManager, addFont, gRGB, eWindowStyleSkinned, getDesktop
 from Components.config import ConfigSubsection, ConfigText, config
 from Components.Converter.Converter import Converter
 from Components.Sources.Source import Source, ObsoleteSource
@@ -74,18 +74,14 @@ def skin_user_skinname():
 # the dom_skin will keep all screens in descending priority,
 # so the first screen found will be used.
 
-# example: loadSkin("nemesis_greenline/skin.xml")
 config.skin = ConfigSubsection()
-if getBoxType() in ('k1plus','k1pro','k2pro','k2prov2','k3pro'):
+if SystemInfo["SmallFlash"]:
 	DEFAULT_SKIN = "PLi-HD/skin.xml"
 else:
-	DEFAULT_SKIN = SystemInfo["HasFullHDSkinSupport"] and "PLi-FullNightHD/skin.xml" or "PLi-HD/skin.xml"
+	DEFAULT_SKIN = "MetrixHD/skin.xml"
 # on SD hardware, PLi-HD will not be available
 if not fileExists(resolveFilename(SCOPE_SKIN, DEFAULT_SKIN)):
-	# in that case, fallback to Magic (which is an SD skin)
-	DEFAULT_SKIN = "Magic/skin.xml"
-	if not fileExists(resolveFilename(SCOPE_SKIN, DEFAULT_SKIN)):
-		DEFAULT_SKIN = "skin.xml"
+	DEFAULT_SKIN = "skin.xml"
 config.skin.primary_skin = ConfigText(default=DEFAULT_SKIN)
 
 profile("LoadSkin")
@@ -105,7 +101,6 @@ display_skin_id = 1
 addSkin('skin_display.xml')
 if SystemInfo["grautec"]:
 	addSkin('skin_display_grautec.xml')
-addSkin('skin_text.xml')
 addSkin('skin_subtitles.xml')
 
 try:
