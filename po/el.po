@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLI Enigma2 Official Greek Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-10 09:22+0330\n"
+"POT-Creation-Date: 2019-03-14 09:59+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: MCelliotG <mcelliotg@gmail.com>\n"
 "Language-Team: MCelliotG <mcelliotg@gmail.com>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.7\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -653,7 +653,7 @@ msgstr "<Τρέχουσα τοποθεσία καταλόγου ταινιών>"
 
 #, fuzzy
 msgid "<Default Skin with Picon>"
-msgstr "<Προεπιλεγμένη τοποθεσία ταινιών>"
+msgstr "<Προεπιλεγμένο θέμα>"
 
 msgid "<Default Skin>"
 msgstr "<Προεπιλεγμένο θέμα>"
@@ -1984,21 +1984,17 @@ msgstr "Τύπος ρύθμισης: %s"
 msgid "Configuration..."
 msgstr "Παραμετροποίηση..."
 
-#, fuzzy
 msgid "Configure ATSC"
-msgstr "Παραμετροποίηση"
+msgstr "Ρύθμιση για το ATSC"
 
-#, fuzzy
 msgid "Configure DVB-C"
-msgstr "Παραμετροποίηση"
+msgstr "Ρύθμιση για το DVB-C"
 
-#, fuzzy
 msgid "Configure DVB-S"
-msgstr "Παραμετροποίηση"
+msgstr "Ρύθμιση για το DVB-S"
 
-#, fuzzy
 msgid "Configure DVB-T"
-msgstr "Παραμετροποίηση"
+msgstr "Ρύθμιση για το DVB-T"
 
 msgid "Configure an additional delay to improve external subtitle synchronisation."
 msgstr "Ρύθμιση πρόσθετης καθυστέρησης για βελτίωση του συγχρονισμού των εξωτερικών υποτίτλων."
@@ -3338,7 +3334,7 @@ msgstr "(Επαν)εκκινήσεις Enigma: %d\n"
 
 #, python-format
 msgid "Enigma debug level: %d\n"
-msgstr ""
+msgstr "Επίπεδο αποσφαλμάτωσης Enigma: %d\n"
 
 msgid "Enigma version: "
 msgstr "Έκδοση enigma: "
@@ -3488,9 +3484,8 @@ msgstr "Εσθονία"
 msgid "Estonian"
 msgstr "Εσθονικά"
 
-#, fuzzy
 msgid "EtPortal"
-msgstr "Πορτογαλία"
+msgstr "EtPortal"
 
 msgid "Ethernet network interface"
 msgstr "Διεπαφή ενσύρματου δικτύου"
@@ -3644,7 +3639,7 @@ msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr "Πρόσθετος χρόνος εκκίνησης για αγνόηση της αδράνειας του χρονοδιακόπτη ύπνου"
 
 msgid "F"
-msgstr ""
+msgstr "F"
 
 msgid "F1/F3/F4/F4-TURBO"
 msgstr "F1/F3/F4/F4-TURBO"
@@ -3932,7 +3927,7 @@ msgid "Further options"
 msgstr "Περαιτέρω επιλογές"
 
 msgid "G"
-msgstr ""
+msgstr "G"
 
 msgid "GStreamer version: "
 msgstr "Έκδοση GStreamer: "
@@ -4114,9 +4109,8 @@ msgstr "Γουινέα-Μπισσάου"
 msgid "Guyana"
 msgstr "Γουιάνα"
 
-#, fuzzy
 msgid "H"
-msgstr "Κ. "
+msgstr "H"
 
 msgid "HD list"
 msgstr "Λίστα HD"
@@ -4280,13 +4274,11 @@ msgstr "Ρυθμίσεις Hotkey"
 msgid "Hotkey zap"
 msgstr "Ζάπινγκ Hotkey"
 
-#, fuzzy
 msgid "Hotswitchable"
-msgstr "μη δυνατή δοκιμή"
+msgstr "Αυτόματης εναλλαγής"
 
-#, fuzzy
 msgid "Hotswitchable tuner"
-msgstr "Εναλλάξιμοι τύποι tuner: "
+msgstr "Αυτ. εναλλάξιμο tuner"
 
 msgid "How many minutes do you want add to the recording?"
 msgstr "Πόσα λεπτά θέλετε να προστεθούν στην εγγραφή;"
@@ -4304,7 +4296,7 @@ msgid "Hungary"
 msgstr "Ουγγαρία"
 
 msgid "I"
-msgstr ""
+msgstr "I"
 
 msgid "I do not want to perform any service scans"
 msgstr "Δεν θέλω να γίνει καμία ανίχνευση για υπηρεσίες"
@@ -4665,7 +4657,7 @@ msgid "Items per page for list screen"
 msgstr "Αντικείμενα ανά σελίδα για λίστα οθόνης"
 
 msgid "J"
-msgstr ""
+msgstr "J"
 
 msgid "Jamaica"
 msgstr "Τζαμάικα"
@@ -4772,21 +4764,18 @@ msgstr "Ενεργοποίηση LED κατά τη βαθιά αναμονή."
 msgid "LED brightness during normal operations."
 msgstr ""
 
-#, fuzzy
 msgid "LED brightness during standby."
-msgstr "Ενεργοποίηση LED κατά την αναμονή."
+msgstr ""
 
-#, fuzzy
 msgid "LED color during normal operations"
-msgstr "Ενεργοποίηση LED κατά την αναμονή."
+msgstr ""
 
 #, fuzzy
 msgid "LED color during recording"
-msgstr "Ενεργοποίηση LED κατά την αναμονή."
+msgstr "Τοποθεσία άμεσων εγγραφών"
 
-#, fuzzy
 msgid "LED color during recording in standby"
-msgstr "Ενεργοποίηση LED κατά την αναμονή."
+msgstr ""
 
 #, fuzzy
 msgid "LED color during standby"
@@ -6602,9 +6591,8 @@ msgstr "Γρήγορο"
 msgid "Quick zap"
 msgstr "Γρήγορο ζάπινγκ"
 
-#, fuzzy
 msgid "REC"
-msgstr "FEC"
+msgstr "ΕΓΓΡ"
 
 msgid "REC "
 msgstr ""
@@ -6916,9 +6904,8 @@ msgstr "Επανεκκίνηση enigma"
 msgid "Restart enigma in debug mode"
 msgstr "Επανεκκίνηση enigma σε αποσφαλμάτωση"
 
-#, fuzzy
 msgid "Restart enigma in standard mode"
-msgstr "Επανεκκίνηση enigma σε αποσφαλμάτωση"
+msgstr "Επανεκκίνηση enigma σε κανονική λειτουργία"
 
 msgid "Restart network"
 msgstr "Eπανεκκίνηση δικτύου"
@@ -7328,16 +7315,16 @@ msgid "Select 'FBC SCR' if this tuner will connect to a SCR (Unicable/JESS) devi
 msgstr "Επιλέξτε 'FBC SCR' αν αυτό το tuner θα χρησιμοποιήσει μία συσκευή SCR (Unicable/JESS). Για όλες τις άλλες ρυθμίσεις επιλέξτε 'FBC αυτόματο'."
 
 msgid "Select 'Yes' when you want to configure this tuner for ATSC"
-msgstr ""
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το ATSC"
 
 msgid "Select 'Yes' when you want to configure this tuner for DVB-C"
-msgstr ""
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το DVB-C"
 
 msgid "Select 'Yes' when you want to configure this tuner for DVB-S"
-msgstr ""
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το DVB-S"
 
 msgid "Select 'Yes' when you want to configure this tuner for DVB-T"
-msgstr ""
+msgstr "Επιλέξτε 'Ναι' όταν θέλετε να ρυθμίσετε αυτό το tuner για το DVB-T"
 
 msgid "Select 'band' if using a 'universal' LNB, otherwise consult your LNB spec sheet."
 msgstr "Επιλέξτε 'μπάντα' αν χρησιμοποιείτε ένα 'universal' LNB, αλλιώς ανατρέξτε στον πίνακα χαρακτηριστικών του LNB σας."
@@ -7790,9 +7777,8 @@ msgstr "Ορισμός του κωδικού του OpenWebif από το εφε
 msgid "Set the port of the OpenWebif from your fallback tuner"
 msgstr "Ορισμός της θύρας του OpenWebif από το εφεδρικό σας tuner"
 
-#, fuzzy
 msgid "Set the scrolling speed of text on the front display, this is used by software renderer in some skins."
-msgstr "Ρύθμιση επιπέδου αντίθεσης στην οθόνη πρόσοψης."
+msgstr ""
 
 #, fuzzy
 msgid "Set the scrolling speed of text on the front display."
@@ -8754,9 +8740,8 @@ msgstr "Μετάβαση στην προηγούμενη υπό-υπηρεσία
 msgid "Switch to radio mode"
 msgstr "Αλλαγή σε λειτουργία ραδιοφώνου"
 
-#, fuzzy
 msgid "Switchable tuner types"
-msgstr "Εναλλάξιμοι τύποι tuner: "
+msgstr "Εναλλάξιμοι τύποι tuner"
 
 msgid "Switzerland"
 msgstr "Ελβετία"
@@ -8798,7 +8783,7 @@ msgid "TSID"
 msgstr "TSID"
 
 msgid "TUNER:"
-msgstr ""
+msgstr "TUNER:"
 
 msgid "TUNING"
 msgstr "ΣΥΝΤΟΝΙΣΜΟΣ"
@@ -9066,7 +9051,7 @@ msgstr ""
 "Παρακαλούμε μη πανικοβάλλεστε όταν βλέπετε να απεικονίζονται τιμές που σας φαίνονται ύποπτες!"
 
 msgid "This is a multitype tuner. Available options depend on the hardware."
-msgstr ""
+msgstr "Αυτό είναι ένα tuner πολλαπλών τύπων. Οι διαθέσιμες επιλογές εξαρτώνται από το υλικό."
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Αυτή είναι η σειρά με την οποία αποστέλλονται οι εντολές DiSEqC στο κεραιοσύστημα. Η σειρά πρέπει να αντιστοιχεί ακριβώς στη σειρά με την οποία έχουν παραταχθεί οι φυσικές συσκευές στο καλώδιο σήματος (ξεκινώντας από τον τελευταίο δέκτη)."
@@ -10415,7 +10400,7 @@ msgid "Wireless network state"
 msgstr "Κατάσταση ασύρματου δικτύου"
 
 msgid "With T2MI RAW mode disabled (default) we can use single T2MI PLP de-encapsulation. With T2MI RAW mode enabled we can use astra-sm to analyze T2MI"
-msgstr "Με τη λειτουργία T2MI RAW ανενεργή (προεπιλογή) μπορείτε να χρησιμοποιήσετε τον απευθείας απεγκλεισμό ενός μονού T2MI PLP. Με τη λειτουργία ενεργή μπορείτε να χρησιμοποιήσετε το astra-sm για ανάλυση του T2MI."
+msgstr "Με τη λειτουργία T2MI RAW ανενεργή (προεπιλογή) μπορείτε να χρησιμοποιήσετε τον απευθείας απεγκλεισμό ενός μονού T2MI PLP. Με τη λειτουργία ενεργή μπορείτε να χρησιμοποιήσετε το astra-sm για ανάλυση του T2MI"
 
 msgid "With errors:"
 msgstr "Με σφάλματα:"
